@@ -8,8 +8,6 @@ public class TestController {
 
     @RequestMapping("/greeting")
     public String hello(){
-        Product p = new Product();
-        p.getId();
         return "Hello...";
     }
 }
